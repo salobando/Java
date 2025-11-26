@@ -3,7 +3,9 @@ package LabJavaOperadores;
 import java.util.Scanner;
 
 public class ValidadorPerfilUsuario {
+
     public static void datos(){
+
         Scanner scanner = new Scanner(System.in);
         String nombreUsuario;
         int edad;
