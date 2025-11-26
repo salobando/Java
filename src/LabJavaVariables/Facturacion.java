@@ -42,6 +42,5 @@ public class Facturacion {
         System.out.println("TOTAL: " + totalAPagar);
         System.out.println("Compra aprobada? " + puedeComprar);
     }
-
     }
 
