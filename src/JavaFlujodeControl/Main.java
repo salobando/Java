@@ -1,6 +1,4 @@
-package FlujodeControl;
-
-import LabJavaOperadores.ValidadorPerfilUsuario;
+package JavaFlujodeControl;
 
 public class Main {
     public static void main(String[] args) {

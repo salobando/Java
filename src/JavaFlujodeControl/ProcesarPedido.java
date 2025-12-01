@@ -1,4 +1,4 @@
-package FlujodeControl;
+package JavaFlujodeControl;
 
 public class ProcesarPedido {
     public static void aplicarTarifaEnvio(double valorPedido, boolean esClientePremium) {
