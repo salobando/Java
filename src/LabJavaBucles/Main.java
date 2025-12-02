@@ -3,21 +3,21 @@ package LabJavaBucles;
 public class Main {
     public static void main(String[] args) {
         System.out.println("\n**Caja Registradora de Comida Rápida**");
-       // Operaciones.cajaRegistradora();
+        Operaciones.cajaRegistradora();
 
         System.out.println("\n**Calculadora de Descuentos**");
-      //  Operaciones.calcularDescuentos();
+        Operaciones.calcularDescuentos();
 
         System.out.println("\n**Tabla de Multiplicar Interactiva**");
-       // Operaciones.tablaMultiplicar();
+        Operaciones.tablaMultiplicar();
 
         System.out.println("\n**Cajero Automático**");
-        //Operaciones.cajeroAutomatic();
+        Operaciones.cajeroAutomatic();
 
         System.out.println("\n**Control de Asistencia en Clase**");
-        //Operaciones.asistenciaClase();
+        Operaciones.asistenciaClase();
 
         System.out.println("\n**Calculadora de Promedios**");
-        Operaciones.asistenciaClase();
+        Operaciones.calcularPromedios();
     }
 }

@@ -142,9 +142,19 @@ public class Operaciones {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Cuantas calificaciones desea ingresar? ");
         int cantidad = scanner.nextInt();
-        for (int i = 0; i < cantidad; i++){
-
+        int nota,promedio=0;
+        for (int i = 1; i <= cantidad; i++){
+            System.out.println("Ingresa Nota " + i);
+            nota = scanner.nextInt();
+            promedio += nota;
         }
-
+        int total = promedio/cantidad;
+        if (total < 6){
+            System.out.println("Reprobado");
+        } else if ((total >= 6) && (total <= 7.9)){
+            System.out.println("Aprobado");
+        }else{
+            System.out.println("Excelente");
+        }
     }
 }
