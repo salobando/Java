@@ -16,17 +16,19 @@ public class Main {
         SistemaReservas sis = new SistemaReservas();
         sis.agregarReserva(reserva);
         sis.agregarReserva(reserva2);
+        System.out.println("***Lista de Reservas***");
         sis.listarReservas();
         sis.contarReservas();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese el id a eliminar: ");
+        System.out.println("\nIngrese el id a eliminar: ");
         int id = scanner.nextInt();
         try {
             sis.eliminarReserva(id);
         }catch (IllegalArgumentException e){
             System.out.println("El id "+id+" "+e.getMessage());
         }
-       sis.listarReservas();
+        System.out.println("***Lista de Reservas***");
+        sis.listarReservas();
     }
 }
