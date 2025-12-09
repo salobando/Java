@@ -22,6 +22,11 @@ public class Cafeteria {
     }
 
     public void ventas(){
+        for (int i = 0; i<pedidos.toArray().length;i++){
+            if (pedidos.get(i).entregado){
+
+            }
+        }
 
     }
 }
